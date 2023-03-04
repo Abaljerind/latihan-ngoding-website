@@ -87,6 +87,27 @@ body {
 }
 
 
+/* thumb */
+.thumb {
+    width: 270px;
+    height: 248px;
+    background-color: #f8f9fa;
+    border: 1px solid #c8ccd1;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.thumb img {
+    width: 261px;
+    height: 148px;
+}
+
+.thumb .caption {
+    font-size: 15px;
+}
+
+
 /* information */
 .information {
     float: right;
