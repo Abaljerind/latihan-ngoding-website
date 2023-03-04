@@ -6,11 +6,9 @@ body {
 
 /* container */
 .container {
-    background-color: white;
     width: 1200px;
     margin: auto;
     margin-top: 20px;
-    position: relative;
     padding: 20px;
 }
 
@@ -58,7 +56,6 @@ body {
 
 /* content */
 .content {
-    width: 820px;
     padding: 20px 0 20px 20px;
     box-sizing: border-box;
 }
@@ -92,7 +89,8 @@ body {
     width: 270px;
     height: 248px;
     background-color: #f8f9fa;
-    border: 1px solid #c8ccd1;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
+    /* border: 1px solid #c8ccd1; */
     padding: 10px;
     float: left;
     margin-right: 20px;
@@ -111,8 +109,9 @@ body {
 .gif {
     width: 285px;
     height: 281px;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
     background-color: #f8f9fa;
-    border: 1px solid #c8ccd1;
+    /* border: 1px solid #c8ccd1; */
     padding: 10px;
     float: right;
     margin-left: 20px;
@@ -131,11 +130,8 @@ body {
 /* information */
 .information {
     float: right;
-    width: 180px;
-    position: absolute;
-    top: 580px;
-    right: 150px;
-    box-sizing: border-box;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .information table h4 {
@@ -150,8 +146,8 @@ body {
 
 .information table img {
     width: 230px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .information table, th, td{
