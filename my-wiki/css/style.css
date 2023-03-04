@@ -107,6 +107,26 @@ body {
     font-size: 15px;
 }
 
+/* gif */
+.gif {
+    width: 285px;
+    height: 281px;
+    background-color: #f8f9fa;
+    border: 1px solid #c8ccd1;
+    padding: 10px;
+    float: right;
+    margin-left: 20px;
+}
+
+.gif img {
+    width: 276px;
+    height: 158px;
+}
+
+.gif .dead-eye {
+    font-size: 15px;
+}
+
 
 /* information */
 .information {
