@@ -37,6 +37,7 @@ body {
 .header ul li a:hover {
     color: whitesmoke;
     background-color: lightskyblue;
+    border-radius: 5%;
 }
 
 
