@@ -120,3 +120,26 @@ body {
 .information table td {
     padding: 5px;
 }
+
+.information table .spek {
+    text-align: center;
+    background-color: #4B5A75;
+    color: whitesmoke;
+}
+
+.information table .release-date {
+    text-align: center;
+    background-color: #4B5A75;
+    color: whitesmoke;
+}
+
+.information table .platform {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.information table .date {
+    font-size: 14px;
+    text-align: center;
+}
