@@ -58,14 +58,14 @@ body {
 
 /* content */
 .content {
-    float: left;
     width: 820px;
     padding: 20px 0 20px 20px;
     box-sizing: border-box;
 }
 .content p {
     padding-bottom: 10px;
-    font-size: 17.5px;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .content p.source {
@@ -79,6 +79,11 @@ body {
 
 .content p a:visited, a {
     color: slategray;
+}
+
+.content h4.subtitle {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
