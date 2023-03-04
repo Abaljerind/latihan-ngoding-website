@@ -15,6 +15,7 @@ body {
 /* header */
 .header h1 {
     font-size: 40px;
+    font-weight: bold;
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.8);
 }
@@ -46,6 +47,6 @@ body {
     background-position: 0 -120px;
     height: 370px;
     margin-top: 20px;
-    border-top: 5px solid salmon;
-    border-bottom: 5px solid lightskyblue;
+    border-top: 7px solid salmon;
+    border-bottom: 7px solid lightskyblue;
 }
