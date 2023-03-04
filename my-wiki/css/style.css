@@ -68,7 +68,16 @@ body {
 
 .content p.source {
     font-size: 15px;
-    margin-bottom: 10px;
+}
+
+.content p.penulis {
+    margin-left: 960px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.content p.penulis span {
+    color: lightskyblue;
 }
 
 .content span.black-color {
