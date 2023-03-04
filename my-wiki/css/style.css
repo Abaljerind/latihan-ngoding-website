@@ -1,0 +1,35 @@
+/* body */
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.header ul li a {
+    font-size: 22px;
+    color: darksalmon;
+    text-decoration: none;
+    transition: .6s;
+}
+
+.header ul li a:hover {
+    color: whitesmoke;
+    background-color: lightskyblue;
+}
