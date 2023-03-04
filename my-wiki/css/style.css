@@ -40,11 +40,11 @@ body {
 
 /* banner */
 .banner {
-    background-image: url(../img/rdr-2.jpg);
+    background-image: url(../img/rdr-2-new.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 -60px;
-    height: 460px;
+    background-position: 0 -120px;
+    height: 370px;
     margin-top: 20px;
     border-top: 5px solid salmon;
     border-bottom: 5px solid lightskyblue;
