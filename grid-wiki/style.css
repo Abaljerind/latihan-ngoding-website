@@ -14,3 +14,20 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 2fr 1fr;
 }
+
+.header {
+  grid-area: header;
+  text-align: left;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
