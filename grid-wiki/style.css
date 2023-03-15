@@ -1,0 +1,16 @@
+body {
+  background-color: #999;
+}
+
+.container {
+  width: 80%;
+  background-color: white;
+  margin: 30px auto;
+  padding: 5px;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav main aside";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
