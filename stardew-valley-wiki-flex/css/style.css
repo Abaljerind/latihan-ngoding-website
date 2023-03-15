@@ -1,0 +1,17 @@
+body {
+  background-color: #999;
+  font-family: "Zilla Slab", serif;
+}
+
+.container {
+  width: 80%;
+  background-color: white;
+  margin: 30px auto;
+  font-size: 18px;
+  display: grid;
+}
+
+.header {
+  font-size: 3em;
+  text-decoration: underline;
+}
