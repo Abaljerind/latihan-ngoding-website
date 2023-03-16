@@ -212,6 +212,6 @@ body {
   height: 150px;
 }
 
-.thumbnail p.caption {
+.thumbnail .caption {
   font-size: 12px;
 }
