@@ -170,3 +170,15 @@ body {
   background-color: lightskyblue;
   color: whitesmoke;
 }
+
+/* banner */
+.banner {
+  margin-top: 20px;
+  border-top: 10px solid salmon;
+  background-image: url(https://media.wired.com/photos/5926acadaf95806129f5040f/191:100/w_1280,c_limit/rdr2.jpg);
+  background-size: cover;
+  background-position: 0 -35px;
+  height: 385px;
+  margin-bottom: 20px;
+  border-bottom: 10px solid lightskyblue;
+}
