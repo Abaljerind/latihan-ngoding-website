@@ -180,3 +180,13 @@ body {
 .daftar-isi ul li a {
   text-decoration: none;
 }
+
+/* content */
+.content .source {
+  font-size: small;
+}
+
+.content p {
+  margin-top: 15px;
+  line-height: 1.05;
+}
