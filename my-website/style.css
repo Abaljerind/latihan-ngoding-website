@@ -191,6 +191,7 @@ body {
 
 .content .main {
   margin-right: 10px;
+  flex: 2;
 }
 
 .content .main .title h3 {
@@ -217,8 +218,12 @@ body {
 }
 
 /* sidebar */
+.sidebar {
+  flex: 1;
+}
 .sidebar h3 {
   font-size: 1.2em;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 
@@ -226,8 +231,10 @@ body {
   width: 120px;
   height: 120px;
   margin-right: 10px;
+  margin-bottom: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
+  float: left;
 }
 
 .sidebar p {
