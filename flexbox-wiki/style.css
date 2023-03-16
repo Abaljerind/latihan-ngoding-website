@@ -201,17 +201,17 @@ body {
 }
 
 .alur-permainan .thumbnail {
-  width: 300px;
-  height: 170px;
+  max-width: 300px;
+  max-height: 200px;
   padding: 10px;
-  margin-right: 20px;
+  border: 1px solid #bbb;
 }
 
 .thumbnail img {
   width: 290px;
-  height: 165px;
+  height: 150px;
 }
 
-.thumbnail .caption {
+.thumbnail p.caption {
   font-size: 12px;
 }
