@@ -211,3 +211,20 @@ body {
   line-height: 1.25em;
   margin-bottom: 10px;
 }
+
+/* sidebar */
+.sidebar .title h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.sidebar .profile img {
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+}
+
+.sidebar .profile p {
+  line-height: 1.25em;
+  font-size: 15px;
+}
