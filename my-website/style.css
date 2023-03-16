@@ -179,6 +179,35 @@ body {
   background-size: cover;
   background-position: 0 -35px;
   height: 385px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border-bottom: 10px solid lightskyblue;
+}
+
+/* content */
+.content {
+  max-width: 100%;
+  /* display: flex; */
+}
+
+.content .main .title h3 {
+  font-size: 1.8em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.content .main .title .penulis {
+  font-size: 13.5px;
+  margin-bottom: 20px;
+}
+
+.content .main .title .penulis a:hover {
+  background-color: salmon;
+  color: white;
+  transition: 500ms;
+  border-radius: 5px;
+}
+
+.content .main .text p {
+  line-height: 1.25em;
+  margin-bottom: 10px;
 }
