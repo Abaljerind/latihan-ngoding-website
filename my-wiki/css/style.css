@@ -1,194 +1,193 @@
 /* body */
 body {
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* container */
 .container {
-    width: 1200px;
-    margin: auto;
-    margin-top: 20px;
-    padding: 20px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
 }
-
 
 /* header */
 .header h1 {
-    font-size: 40px;
-    font-weight: bold;
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .header ul li {
-    display: inline-block;
-    padding-right: 20px;
-    margin-top: 20px;
+  display: inline-block;
+  padding-right: 20px;
+  margin-top: 20px;
 }
 
 .header ul li a {
-    font-size: 22px;
-    color: darksalmon;
-    text-decoration: none;
-    -webkit-transition: .6s;
-    transition: .6s;
+  font-size: 22px;
+  color: darksalmon;
+  text-decoration: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .header ul li a:hover {
-    color: whitesmoke;
-    background-color: lightskyblue;
-    border-radius: 5%;
+  color: whitesmoke;
+  background-color: lightskyblue;
+  border-radius: 5%;
 }
-
 
 /* banner */
 .banner {
-    background-image: url(../img/rdr-2-new.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 -120px;
-    height: 370px;
-    margin-top: 20px;
-    border-top: 7px solid salmon;
-    border-bottom: 7px solid lightskyblue;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+  background-image: url(../img/rdr-2-new.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -120px;
+  height: 370px;
+  margin-top: 20px;
+  border-top: 7px solid salmon;
+  border-bottom: 7px solid lightskyblue;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* content */
 .content {
-    padding: 20px 0 20px 20px;
-    box-sizing: border-box;
+  padding: 20px 0 20px 20px;
+  box-sizing: border-box;
 }
 .content p {
-    padding-bottom: 10px;
-    font-size: 17px;
-    line-height: 20px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .content p.source {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .content p.penulis {
-    margin-left: 960px;
-    font-size: 15px;
-    margin-top: -25px;
-    margin-bottom: 20px;
+  margin-left: 960px;
+  font-size: 15px;
+  margin-top: -25px;
+  margin-bottom: 20px;
 }
 
 .content p.penulis span {
-    color: lightskyblue;
+  color: lightskyblue;
 }
 
 .content span.black-color {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.content p a:visited, a {
-    color: slategray;
+.content p a:visited,
+a {
+  color: slategray;
 }
 
 .content h4.subtitle {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
-
 
 /* thumb */
 .thumb {
-    width: 270px;
-    height: 248px;
-    background-color: #f8f9fa;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
-    /* border: 1px solid #c8ccd1; */
-    padding: 10px;
-    float: left;
-    margin-right: 20px;
+  width: 270px;
+  height: 248px;
+  background-color: #f8f9fa;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
+  /* border: 1px solid #c8ccd1; */
+  padding: 10px;
+  float: left;
+  margin-right: 20px;
 }
 
 .thumb img {
-    width: 261px;
-    height: 148px;
+  width: 261px;
+  height: 148px;
 }
 
 .thumb .caption {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 /* gif */
 .gif {
-    width: 285px;
-    height: 281px;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
-    background-color: #f8f9fa;
-    /* border: 1px solid #c8ccd1; */
-    padding: 10px;
-    float: right;
-    margin-left: 20px;
+  width: 285px;
+  height: 281px;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
+  background-color: #f8f9fa;
+  /* border: 1px solid #c8ccd1; */
+  padding: 10px;
+  float: right;
+  margin-left: 20px;
 }
 
 .gif img {
-    width: 276px;
-    height: 158px;
+  width: 276px;
+  height: 158px;
 }
 
 .gif .dead-eye {
-    font-size: 15px;
+  font-size: 15px;
 }
-
 
 /* information */
 .information {
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .information table h4 {
-    color: whitesmoke;
-    font-size: 20px;
-    font-style: italic;
-    background-color: #4B5A75;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: italic;
+  background-color: #4b5a75;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .information table img {
-    width: 230px;
-    padding-left: 40px;
-    padding-right: 40px;
+  width: 230px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.information table, th, td{
-    border: 5px solid black;
+.information table,
+th,
+td {
+  border: 5px solid black;
 }
 
 .information table td {
-    padding: 5px;
+  padding: 5px;
 }
 
 .information table .spek {
-    text-align: center;
-    background-color: #4B5A75;
-    color: whitesmoke;
+  text-align: center;
+  background-color: #4b5a75;
+  color: whitesmoke;
 }
 
 .information table .release-date {
-    text-align: center;
-    background-color: #4B5A75;
-    color: whitesmoke;
+  text-align: center;
+  background-color: #4b5a75;
+  color: whitesmoke;
 }
 
 .information table .platform {
-    font-size: 16px;
-    text-align: center;
-    font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .information table .date {
-    font-size: 14px;
-    text-align: center;
+  font-size: 14px;
+  text-align: center;
 }
