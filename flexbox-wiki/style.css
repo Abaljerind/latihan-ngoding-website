@@ -149,7 +149,6 @@ body {
 }
 
 .header h1 {
-  max-width: 100%;
   font-size: 2.5em;
   margin-bottom: 20px;
   border-bottom: 2px solid black;
@@ -182,6 +181,8 @@ body {
 }
 
 /* content */
+
+/* awal */
 .content .source {
   font-size: small;
 }
@@ -190,4 +191,27 @@ body {
   margin-top: 15px;
   font-size: 15px;
   line-height: 1.05;
+}
+
+/* alur permainan */
+.alur-permainan h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.alur-permainan .thumbnail {
+  width: 300px;
+  height: 170px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.thumbnail img {
+  width: 290px;
+  height: 165px;
+}
+
+.thumbnail .caption {
+  font-size: 12px;
 }
