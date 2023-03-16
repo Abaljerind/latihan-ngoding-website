@@ -186,7 +186,11 @@ body {
 /* content */
 .content {
   max-width: 100%;
-  /* display: flex; */
+  display: flex;
+}
+
+.content .main {
+  margin-right: 10px;
 }
 
 .content .main .title h3 {
