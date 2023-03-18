@@ -36,3 +36,31 @@ body {
   border-top: 10px solid salmon;
   border-bottom: 10px solid lightskyblue;
 }
+
+/* content */
+.content .row .h1 {
+  font-size: 2rem;
+  margin-bottom: -2px;
+}
+
+.content .row .penulis {
+  font-size: 0.8rem;
+}
+
+.content .row .penulis a {
+  color: lightskyblue;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.content .row .penulis a:hover {
+  color: white;
+  background-color: salmon;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.content .row p {
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
