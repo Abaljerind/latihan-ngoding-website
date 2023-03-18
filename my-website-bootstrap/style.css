@@ -28,7 +28,7 @@ body {
 }
 
 /* banner */
-.banner {
+.banner img {
   border-top: 10px solid salmon;
   border-bottom: 10px solid lightskyblue;
 }
