@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  width: 960px;
+  width: 1000px;
   margin: 30px auto;
   background-color: #ddd;
 }
@@ -37,6 +37,7 @@ body {
 .content .row .h1 {
   font-size: 2rem;
   margin-bottom: -2px;
+  margin-top: 4px;
 }
 
 .content .row .penulis {
@@ -76,4 +77,9 @@ body {
 .content .row .sidebar p {
   font-size: 0.8rem;
   line-height: 1.55;
+}
+
+/* footer */
+.footer {
+  background-color: #333;
 }
