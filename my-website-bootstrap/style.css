@@ -26,3 +26,13 @@ body {
   transition: 800ms;
   color: white;
 }
+
+/* banner */
+.banner {
+  background-image: url(https://cdn.wallpapersafari.com/96/80/5kmhn3.png);
+  height: 380px;
+  background-size: cover;
+  background-position: 0 -40px;
+  border-top: 10px solid salmon;
+  border-bottom: 10px solid lightskyblue;
+}
