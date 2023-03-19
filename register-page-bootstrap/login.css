@@ -1,0 +1,75 @@
+.kotak {
+  width: 860px;
+  margin: 70px auto;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* kolom pertama */
+.row .col-pertama {
+  width: 60%;
+}
+
+.row .col-pertama .h2 {
+  margin-top: 30px;
+}
+
+.row .col-pertama .input-group {
+  width: 80%;
+}
+
+.row .col-pertama span.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* kolom kedua */
+.row .col-kedua {
+  width: 40%;
+}
+
+.row .col-kedua .img {
+  width: 300px;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.row .col-kedua span.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* media responsive */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .kotak {
+    width: 576px;
+  }
+  .row .col-pertama {
+    width: 100%;
+  }
+
+  .row .col-kedua {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .kotak {
+    width: 768px;
+  }
+
+  .row .col-pertama {
+    width: 60%;
+  }
+
+  .row .col-kedua {
+    width: 40%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
