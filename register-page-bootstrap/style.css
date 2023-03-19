@@ -1,0 +1,41 @@
+.kotak {
+  width: 860px;
+  margin: 70px auto;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* kolom pertama */
+.row .col-pertama {
+  width: 60%;
+}
+
+.row .col-pertama .h2 {
+  margin-top: 30px;
+}
+
+.row .col-pertama .input-group {
+  width: 80%;
+}
+
+.row .col-pertama span.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* kolom kedua */
+.row .col-kedua {
+  width: 40%;
+}
+
+.row .col-kedua .img {
+  width: 320px;
+  height: 320px;
+  margin-top: 40px;
+}
+
+.row .col-kedua span.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
