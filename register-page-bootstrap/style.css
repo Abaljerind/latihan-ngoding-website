@@ -41,6 +41,19 @@
 }
 
 /* media responsive */
+@media (min-width: 420px) {
+  .kotak {
+    width: 420px;
+  }
+  .row .col-pertama {
+    width: 100%;
+  }
+
+  .row .col-kedua {
+    display: none;
+  }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .kotak {
