@@ -42,17 +42,32 @@
 
 /* media responsive */
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .kotak {
     width: 576px;
   }
   .row .col-pertama {
     width: 100%;
   }
+
+  .row .col-kedua {
+    display: none;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 810px) {
+@media (min-width: 768px) {
+  .kotak {
+    width: 768px;
+  }
+
+  .row .col-pertama {
+    width: 60%;
+  }
+
+  .row .col-kedua {
+    width: 40%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
