@@ -7,12 +7,23 @@ body {
 
 /* navbar */
 nav.navbar {
-  padding: 15px;
+  padding-left: 50px;
 }
 
 .container-fluid span.navbar-brand {
   font-size: 1.65em;
   color: #ddd;
+  word-wrap: break-word;
+}
+
+span.navbar-brand #content1::after {
+  content: "\a";
+  white-space: pre;
+}
+
+span.navbar-brand #content2::after {
+  content: "\a";
+  white-space: pre;
 }
 
 ul.navbar-nav li {
