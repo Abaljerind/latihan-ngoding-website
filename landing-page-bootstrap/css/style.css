@@ -27,12 +27,13 @@ span.navbar-brand #content2::after {
 }
 
 ul.navbar-nav li {
+  font-size: 1.3em;
   margin-right: 25px;
 }
 
 ul.navbar-nav li a:hover {
-  border-bottom: 3px solid white;
-  padding-bottom: 3px;
-  font-size: 1.15em;
-  transition: 600ms;
+  font-size: 1.1em;
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+  transition: 800ms;
 }
