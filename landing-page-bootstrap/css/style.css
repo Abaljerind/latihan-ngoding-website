@@ -37,3 +37,46 @@ ul.navbar-nav li a:hover {
   padding-bottom: 5px;
   transition: 800ms;
 }
+
+/* content */
+.container {
+  max-width: 100%;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row .col-12 h1.display-3 {
+  word-wrap: break-word;
+  line-height: 1.2;
+}
+
+.row .col-12 h1.display-3 #content1::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.row .col-12 h1.display-3 #content2::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.container .row#sub-title {
+  margin-top: 30px;
+}
+
+.container .row#sub-content {
+  margin-top: 25px;
+}
+
+.container .row#sub-title .lead {
+  font-size: 1em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.container .row#sub-content .lead {
+  background-color: white;
+  color: #7d6f65;
+  font-weight: 700;
+}
