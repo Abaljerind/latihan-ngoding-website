@@ -81,6 +81,19 @@ ul.navbar-nav li a:hover {
 
 .container .row#sub-content .lead {
   background-color: white;
-  color: #7d6f65;
+  color: #7c736c;
   font-weight: 700;
+}
+
+/* footer */
+.footer {
+  background-color: #736d69;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.footer ul.sosmed-footer li.nav-item {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
