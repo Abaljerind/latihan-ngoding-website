@@ -46,18 +46,23 @@
 
     <!-- isi content -->
 
-    <div class="container text-center">
+    <div class="container">
       <div class="row">
         <div class="col">
-          <p>
-            Welcome to <span>Devkit.</span>
-            Develop anything.
-          </p>
+          <p id="devkit-text1">Welcome to <span id="devkit-color">Devkit.</span><br /></p>
 
-          <p>Build a beautiful, modern website with flexible components built from scratch.</p>
+          <p id="devkit-text2">Build a beautiful, modern website with flexible <br /></p>
 
-          <button>View All Pages -></button>
-          <button>Documentation</button>
+          <button type="button" class="btn btn-primary btn-md shadow-sm me-3">
+            View All Pages
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+              />
+            </svg>
+          </button>
+          <button type="button" class="btn btn-primary btn-md" id="document">Documentation</button>
         </div>
         <div class="col">
           <img src="devkit.jpg" class="img-fluid" alt="Devkit." />
@@ -69,5 +74,8 @@
 
     <!-- js -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <!-- my js -->
+    <script src="app.js"></script>
   </body>
 </html>

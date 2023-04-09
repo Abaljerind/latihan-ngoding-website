@@ -1,0 +1,9 @@
+.container .row .col span#devkit-color {
+  color: #6081ee;
+  cursor: pointer;
+}
+
+.container .row .col button#document {
+  opacity: 0.4;
+  color: #ffffff;
+}
