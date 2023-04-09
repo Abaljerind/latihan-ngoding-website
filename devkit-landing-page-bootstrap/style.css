@@ -1,3 +1,20 @@
+body {
+  padding: 70px 80px 0 80px;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar .container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/* content */
+#content .row .col {
+  margin: 20px auto;
+  padding: 70px;
+}
+
 .container .row .col span#devkit-color {
   color: #6081ee;
   cursor: pointer;
@@ -5,5 +22,4 @@
 
 .container .row .col button#document {
   opacity: 0.4;
-  color: #ffffff;
 }
