@@ -41,3 +41,38 @@ nav.nav a.nav-link:hover {
   border-top: 10px solid salmon;
   border-bottom: 10px solid lightskyblue;
 }
+
+/* section content */
+section article h3 {
+  word-spacing: 3px;
+}
+
+section article p.penulis {
+  margin-top: -10px;
+  font-size: 0.8em;
+}
+
+article p.penulis a {
+  color: salmon;
+}
+
+article p.penulis a:hover {
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 3px;
+}
+
+section article p {
+  font-size: 1em;
+}
+
+/* section aside */
+section aside img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+section aside p {
+  font-size: 0.8em;
+}
