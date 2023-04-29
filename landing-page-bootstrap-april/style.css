@@ -34,8 +34,10 @@ nav.nav a.nav-link:hover {
 } */
 
 .carousel-inner .carousel-item img {
-  height: 360px;
+  height: 370px;
   object-fit: cover;
   object-position: 0 -20px;
   image-rendering: crisp-edges;
+  border-top: 10px solid salmon;
+  border-bottom: 10px solid lightskyblue;
 }
