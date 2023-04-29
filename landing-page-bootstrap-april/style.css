@@ -9,10 +9,20 @@ nav.nav a.nav-link {
   color: lightskyblue;
   border-radius: 10px;
   padding: 10px;
+  margin-right: 5px;
 }
 
 nav.nav a.nav-link:hover {
   background-color: salmon;
   color: white;
   border-radius: 10px;
+}
+
+.banner {
+  height: 400px;
+  background-image: url(img/rdr2-lp.jpg);
+  background-size: cover;
+  background-position: 0 -10px;
+  border-top: 10px solid salmon;
+  border-bottom: 10px solid lightskyblue;
 }
