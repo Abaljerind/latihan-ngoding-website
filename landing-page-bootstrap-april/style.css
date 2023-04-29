@@ -24,11 +24,18 @@ nav.nav a.nav-link:hover {
 }
 
 /* banner or corousel */
-.banner {
+/* .banner {
   height: 400px;
   background-image: url(img/rdr2-lp.jpg);
   background-size: cover;
   background-position: 0 -10px;
   border-top: 10px solid salmon;
   border-bottom: 10px solid lightskyblue;
+} */
+
+.carousel-inner .carousel-item img {
+  height: 360px;
+  object-fit: cover;
+  object-position: 0 -20px;
+  image-rendering: crisp-edges;
 }
